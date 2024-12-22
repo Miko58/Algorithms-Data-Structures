@@ -30,6 +30,14 @@ int main()
                 count++;
 
     std::cout << count;
-    
+
     return 0;
 }
+
+/*
+The estimated worst-case time complexity of this program is O(n^2).
+This is because there is a nested loop structure, where for each 
+element in vectorM, the program iterates through all elements in vectorN. 
+Since the other loops iterate only once through the vectors, 
+their contributions to the overall time complexity are negligible.
+*/
