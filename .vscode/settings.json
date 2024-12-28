@@ -55,6 +55,9 @@
         "optional": "cpp",
         "unordered_map": "cpp",
         "xhash": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "*.tpp": "cpp",
+        "deque": "cpp",
+        "stack": "cpp"
     }
 }
