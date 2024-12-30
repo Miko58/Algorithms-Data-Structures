@@ -59,6 +59,13 @@
         "*.tpp": "cpp",
         "deque": "cpp",
         "stack": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "queue": "cpp",
+        "chrono": "cpp",
+        "forward_list": "cpp",
+        "fstream": "cpp",
+        "ratio": "cpp",
+        "sstream": "cpp",
+        "string": "cpp"
     }
 }
