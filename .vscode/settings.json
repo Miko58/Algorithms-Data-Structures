@@ -58,6 +58,7 @@
         "xtree": "cpp",
         "*.tpp": "cpp",
         "deque": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "iomanip": "cpp"
     }
 }

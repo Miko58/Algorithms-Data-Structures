@@ -48,7 +48,7 @@ class Stack {
     }
 
     // Pops the top element
-    int pop() {
+    Object pop() {
         if (currentSize > 0) {
             return array[--currentSize];
         } else {

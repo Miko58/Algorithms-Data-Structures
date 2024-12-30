@@ -113,7 +113,7 @@ public:
     void insertItem(int key) override {
         int index = hashFunction(key);
 
-        // Linear probing with wrapping
+        // Quadratic probing with wrapping
         for (int i = 0; i < capacity; i++) {
             int probingIndex = (index + i * i) % capacity; // Wrap around
             if (table[probingIndex].empty()) {
@@ -128,7 +128,7 @@ public:
     void deleteItem(int key) override {
         int index = hashFunction(key);
 
-        // Search for the key using linear probing
+        // Search for the key using quadratic probing
         for (int i = 0; i < capacity; i++) {
             int probingIndex = (index + i * i) % capacity;  // Wrap around the table
 
